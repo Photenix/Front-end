@@ -16,7 +16,9 @@ const Education = () => {
                     </div>
                 </div>
                 <div>
-                    
+                    <div>
+                        hi
+                    </div>
                 </div>
             </div>
 
