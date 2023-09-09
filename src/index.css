@@ -14,3 +14,10 @@ html {
 .education h2{
   font-size: 32px;
 }
+
+.principal-card{
+  display: flex;
+  padding: 20px;
+  border-radius: 14px;
+  gap: 12px;
+}

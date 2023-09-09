@@ -7,12 +7,16 @@ const Education = () => {
                 <p>Aprende a ahorrar y manejar mejor tus finanzas</p>
             </div>
 
-            <div>
-                <div className="top_education">
-                    <img src="" alt="" />
+            <div className="flex flex-col items-center gap-1">
+                <div className="principal-card border-fourty border w-5/6">
+                    <img src="https://img.freepik.com/vector-premium/ilustracion-vector-luz-bombilla_516670-384.jpg?w=2000" alt="w" 
+                    className="w-[200px]"/>
                     <div>
-                        <h3 className="font-medium">title</h3>
+                        <h3>title</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rem, dolore aut alias fugiat vero expedita doloremque. Hic, quasi laudantium vitae, dolor placeat molestiae incidunt officiis ipsum nostrum odit sapiente.</p>
+                        <div className="flex item-left justify-end ">
+                            <button className="rounded-lg p-6 bg-fourty text-white font-medium">Leer</button>
+                        </div>
                     </div>
                 </div>
                 <div>
