@@ -4,7 +4,7 @@ import './index.css'
 // import Index from './Index.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Calculator from './assets/calculator/Calculator';
-import Education from './Education';
+import Education from './assets/Education/Education';
 
 
 const router = createBrowserRouter([
