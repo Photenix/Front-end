@@ -2,9 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Index from './Index.jsx'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Index />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Index />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
