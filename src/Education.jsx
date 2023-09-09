@@ -23,5 +23,6 @@ const Education = () => {
         </div>
     )
 }
+//
   
 export default Education
