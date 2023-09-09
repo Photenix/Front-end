@@ -10,7 +10,7 @@ const Education = () => {
             </div>
 
             <div className="flex flex-col items-center gap-1">
-                <div className="principal-card border-greenM border w-5/6 bg-white">
+                <div className="principal-card border w-5/6 bg-white">
                     <img src="https://img.freepik.com/vector-premium/ilustracion-vector-luz-bombilla_516670-384.jpg?w=2000" alt="w" 
                     className="w-[200px]"/>
                     <div>
