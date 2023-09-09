@@ -1,15 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Index from './Index.jsx'
+// import Index from './Index.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Calculator from './assets/calculator/Calculator';
+import Education from './Education';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Index />,
+    element: <Calculator />,
   },
+  {
+    path: "/educacion",
+    element: <Education/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
